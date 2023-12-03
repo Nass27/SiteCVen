@@ -19,7 +19,7 @@ html, body {
     }
 footer{
   position: absolute;
-  bottom: 0px;
+  bottom: -40%;
   display: flex;
   justify-content: center;
   align-items: center;
