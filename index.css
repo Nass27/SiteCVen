@@ -66,6 +66,8 @@ footer{
   text-align: center;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .Boutons{
   display: block;

@@ -41,7 +41,7 @@ html, body {
     color: white;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 153, 255), 0 0 0.2em rgb(255, 0, 170);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 auto;
+    margin: 10px 10px;
 }
 .blocgen{
     background-image: url('Images/rectangles.svg');

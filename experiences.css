@@ -138,9 +138,11 @@ body{
     }
     .citation{
         font-size: 22px;
+        margin: 0 10px;
     }
     .soustitre{
         display: inline-block;
+        padding-top: 10px;
     }
     .logos{
         display: flex;
