@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Playfair;
+    src: url('Fonts/PlayfairDisplay-Variable.ttf');
+    font-weight: normal;
+}
+@font-face {
+  font-family: AbrilFat;
+  src: url('Fonts/AbrilFatface-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tektur;
+  src: url('Fonts/Tektur-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+
+body{
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+}
+.retour{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.contenuMA, .contenuPC, .contenuAM{
+    background-color: rgba(144, 145, 132, 0.4);
+    margin-right: 400px;
+}
+.contenuDA, .contenuMT{
+    background-color: rgba(89, 89, 83, 0.4);
+    margin-left: 400px;
+}
+.contenuMA{
+    margin-top: 20px;
+}
+.divcitation{
+    background-image: url('Images/workspace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex: 1;
+}
+.citation{
+    color: white;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    align-self: center;
+    text-align: center;
+    flex: 1;
+}
+.titre{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+.soustitre{
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+.descriptif{
+    text-align: justify;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.monauto{
+    width: 212.5px;
+    height: 59.5px;
+    float: left;
+    padding-right: 15px;
+}
+
+.picard, .rg{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 15px;
+}
+.dreamaway{
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-left: 15px;
+}
+.titreDA {
+    text-align: right;
+}
+.soustitreDA{
+    text-align: justify;
+}
+.soustitreMA{
+    text-align: justify;
+}
+
+.contenus{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*Queries*/
+@media screen and (max-width: 992px) {
+    .contenuMA, .contenuPC, .contenuAM{
+        background-color: rgba(144, 145, 132, 0.4);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .contenuDA, .contenuMT{
+        background-color: rgba(89, 89, 83, 0.4);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .contenuMA, .contenuPC, .contenuAM{
+        background-color: rgba(144, 145, 132, 0.4);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .contenuDA, .contenuMT{
+        background-color: rgba(89, 89, 83, 0.4);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .citation{
+        font-size: 22px;
+    }
+    .soustitre{
+        display: inline-block;
+    }
+    .logos{
+        display: flex;
+        justify-content: center;
+    }
+}

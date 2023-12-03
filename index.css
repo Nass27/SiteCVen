@@ -1,0 +1,379 @@
+@font-face {
+    font-family: Playfair;
+    src: url('Fonts/PlayfairDisplay-Variable.ttf');
+    font-weight: normal;
+}
+@font-face {
+  font-family: AbrilFat;
+  src: url('Fonts/AbrilFatface-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tektur;
+  src: url('Fonts/Tektur-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+footer{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #415989;
+}
+.divfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lieu{
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Nass{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.divNass{
+  
+  padding-top: 15px;
+}
+.titreNass{
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+.soustitreNass{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.titreNass, .soustitreNass{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.accroche{
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Boutons{
+  display: block;
+  text-align: center;
+}
+.button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*Fond*/
+
+@keyframes move {
+  100% {
+      transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #3E1E68;
+  overflow: hidden;
+}
+
+.background span {
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 20vmin;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 45;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+  color: #FFACAC;
+  top: 42%;
+  left: 44%;
+  animation-duration: 14s;
+  animation-delay: -43s;
+  transform-origin: -10vw -10vh;
+  box-shadow: -40vmin 0 5.197755240878968vmin currentColor;
+}
+.background span:nth-child(1) {
+  color: #FFACAC;
+  top: 55%;
+  left: 77%;
+  animation-duration: 55s;
+  animation-delay: -15s;
+  transform-origin: 23vw 19vh;
+  box-shadow: -40vmin 0 5.574040714166252vmin currentColor;
+}
+.background span:nth-child(2) {
+  color: #E45A84;
+  top: 43%;
+  left: 5%;
+  animation-duration: 16s;
+  animation-delay: -50s;
+  transform-origin: 6vw 13vh;
+  box-shadow: -40vmin 0 5.05329777829634vmin currentColor;
+}
+.background span:nth-child(3) {
+  color: #E45A84;
+  top: 10%;
+  left: 4%;
+  animation-duration: 9s;
+  animation-delay: -48s;
+  transform-origin: 4vw -7vh;
+  box-shadow: -40vmin 0 5.329102827457501vmin currentColor;
+}
+.background span:nth-child(4) {
+  color: #E45A84;
+  top: 48%;
+  left: 67%;
+  animation-duration: 47s;
+  animation-delay: -31s;
+  transform-origin: -18vw -7vh;
+  box-shadow: 40vmin 0 5.379476440996585vmin currentColor;
+}
+.background span:nth-child(5) {
+  color: #E45A84;
+  top: 31%;
+  left: 88%;
+  animation-duration: 17s;
+  animation-delay: -27s;
+  transform-origin: 0vw 1vh;
+  box-shadow: -40vmin 0 5.287452903450239vmin currentColor;
+}
+.background span:nth-child(6) {
+  color: #E45A84;
+  top: 45%;
+  left: 89%;
+  animation-duration: 28s;
+  animation-delay: -46s;
+  transform-origin: 11vw -15vh;
+  box-shadow: -40vmin 0 5.703502559203841vmin currentColor;
+}
+.background span:nth-child(7) {
+  color: #FFACAC;
+  top: 90%;
+  left: 63%;
+  animation-duration: 32s;
+  animation-delay: -12s;
+  transform-origin: 13vw 12vh;
+  box-shadow: 40vmin 0 5.2342714336242135vmin currentColor;
+}
+.background span:nth-child(8) {
+  color: #FFACAC;
+  top: 84%;
+  left: 37%;
+  animation-duration: 15s;
+  animation-delay: -27s;
+  transform-origin: 23vw -10vh;
+  box-shadow: 40vmin 0 5.006070342263522vmin currentColor;
+}
+.background span:nth-child(9) {
+  color: #583C87;
+  top: 83%;
+  left: 60%;
+  animation-duration: 34s;
+  animation-delay: -10s;
+  transform-origin: -8vw 12vh;
+  box-shadow: 40vmin 0 5.097391600882196vmin currentColor;
+}
+.background span:nth-child(10) {
+  color: #583C87;
+  top: 26%;
+  left: 61%;
+  animation-duration: 36s;
+  animation-delay: -6s;
+  transform-origin: 17vw -22vh;
+  box-shadow: 40vmin 0 5.6127055015181995vmin currentColor;
+}
+.background span:nth-child(11) {
+  color: #E45A84;
+  top: 98%;
+  left: 80%;
+  animation-duration: 24s;
+  animation-delay: -10s;
+  transform-origin: -16vw 25vh;
+  box-shadow: -40vmin 0 5.135763640228683vmin currentColor;
+}
+.background span:nth-child(12) {
+  color: #E45A84;
+  top: 27%;
+  left: 76%;
+  animation-duration: 44s;
+  animation-delay: -25s;
+  transform-origin: -15vw 6vh;
+  box-shadow: 40vmin 0 5.660516989856939vmin currentColor;
+}
+.background span:nth-child(13) {
+  color: #583C87;
+  top: 5%;
+  left: 12%;
+  animation-duration: 9s;
+  animation-delay: -22s;
+  transform-origin: 17vw -22vh;
+  box-shadow: 40vmin 0 5.771171463186702vmin currentColor;
+}
+.background span:nth-child(14) {
+  color: #FFACAC;
+  top: 77%;
+  left: 33%;
+  animation-duration: 30s;
+  animation-delay: -6s;
+  transform-origin: 6vw 25vh;
+  box-shadow: -40vmin 0 5.459040890599432vmin currentColor;
+}
+.background span:nth-child(15) {
+  color: #E45A84;
+  top: 60%;
+  left: 18%;
+  animation-duration: 25s;
+  animation-delay: -13s;
+  transform-origin: 6vw 5vh;
+  box-shadow: -40vmin 0 5.2974253047915605vmin currentColor;
+}
+.background span:nth-child(16) {
+  color: #FFACAC;
+  top: 14%;
+  left: 59%;
+  animation-duration: 42s;
+  animation-delay: -40s;
+  transform-origin: 0vw 14vh;
+  box-shadow: 40vmin 0 5.637530578075645vmin currentColor;
+}
+.background span:nth-child(17) {
+  color: #583C87;
+  top: 39%;
+  left: 87%;
+  animation-duration: 40s;
+  animation-delay: -27s;
+  transform-origin: 13vw -12vh;
+  box-shadow: -40vmin 0 5.928824237256902vmin currentColor;
+}
+.background span:nth-child(18) {
+  color: #583C87;
+  top: 25%;
+  left: 16%;
+  animation-duration: 51s;
+  animation-delay: -18s;
+  transform-origin: 0vw 17vh;
+  box-shadow: 40vmin 0 5.404722190926545vmin currentColor;
+}
+.background span:nth-child(19) {
+  color: #FFACAC;
+  top: 100%;
+  left: 34%;
+  animation-duration: 9s;
+  animation-delay: -35s;
+  transform-origin: 9vw 14vh;
+  box-shadow: 40vmin 0 5.388807540033351vmin currentColor;
+}
+/* diapo */
+.d1{
+  width: 576px;
+  height: 432x;
+  margin: 50px auto;
+  box-shadow: 0px 15px 10px -5px #777;
+  background-color: #EDEDED;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: fondu 15s ease-in-out infinite both;
+}
+.d2{
+  width: 100%;
+  height: 0px;
+  padding-top: 75%;
+  box-shadow: 0px 0px 10px #777;
+  background-color: #EDEDED;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur{
+  max-width: 300px;
+  margin: 50px auto;
+}
+.d1:hover, .d2:hover{
+  animation-play-state: paused;
+}
+@keyframes fondu{
+  0%{background-image: url("Images/diapo1.jpg");}
+  25%{background-image: url("Images/diapo2.jpg");}
+  50%{background-image: url("Images/diapo3.jpg");}
+  75%{background-image: url("Images/diapo4.jpg");}
+  100%{background-image: url("Images/diapo6.jpg");}
+}
+
+/*Queries*/
+@media screen and (max-width: 992px) {
+  .accroche{
+    padding: 0 10px;
+  }
+  
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .button{
+    margin-top: 10px;
+  }
+  footer, .divfooter{
+    display: block;
+  }
+  footer{
+    position: absolute;
+    bottom: -40%;
+  }
+  .divfooter{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .lieu{
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+  }
+}

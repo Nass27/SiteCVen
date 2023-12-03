@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Playfair;
+    src: url('Fonts/PlayfairDisplay-Variable.ttf');
+    font-weight: normal;
+}
+@font-face {
+  font-family: AbrilFat;
+  src: url('Fonts/AbrilFatface-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tektur;
+  src: url('Fonts/Tektur-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+body{
+    background-image: url("Images/tableau.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.retour{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.titre{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.soustitre{
+    text-align: center;
+    color: rgb(73, 141, 209);
+}
+.titre, .soustitre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.divtitre{
+    background-image: url('Images/school.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: 1;
+}
+.textetitre{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    align-self: center;
+    flex: 1;
+}
+
+.bachelor{
+    display: flex;
+    margin-top: 10px;
+}
+.bacplusdeux, .bac{
+    display: flex;
+}
+.titresoustitre{
+    flex: 1;
+    align-self: center;
+}
+.descriptif{
+    flex: 2;
+    
+}
+.descriptifun{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.descrbach{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+p{
+    text-align: justify;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background: rgb(73, 141, 209, 0.3);
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Queries*/
+@media screen and (max-width: 992px) {
+   
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .bachelor, .bacplusdeux, .bac{
+        display: block;
+    }
+    .descriptif{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .titre{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
