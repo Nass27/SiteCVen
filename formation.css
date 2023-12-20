@@ -18,7 +18,7 @@ html, body {
     padding:0;
     }
 body{
-    background-image: url("Images/tableau.jpg");
+    background-image: url("Images/backgf.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,6 +27,38 @@ body{
     bottom: 0px;
     right: 0px;
 }
+.divcitation{
+    background-image: url('Images/desk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex: 1;
+}
+.citation{
+    margin: 0px;
+    align-self: center;
+    flex: 1;
+}
+.textetitre{
+    color: gold;
+    text-align: center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    align-self: center;
+    flex: 1;
+    text-shadow: 2px 2px 2px #000000;
+}
+.auteur{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000000;
+}
 .titre{
     text-align: center;
     color: white;
@@ -34,11 +66,10 @@ body{
 }
 .soustitre{
     text-align: center;
-    color: rgb(73, 141, 209);
+    color: gold;
 }
 .titre, .soustitre{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -49,15 +80,6 @@ body{
     background-size: cover;
     background-position: center;
     display: flex;
-    flex: 1;
-}
-.textetitre{
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 0px;
-    align-self: center;
     flex: 1;
 }
 
@@ -91,7 +113,7 @@ p{
     text-align: justify;
     padding: 5px 5px;
     border-radius: 10px;
-    background: rgb(73, 141, 209, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
