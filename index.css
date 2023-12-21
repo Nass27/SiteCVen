@@ -33,7 +33,7 @@ footer{
   background-color: white;
 }
 .background{
-  background-image: url('Images/background.png');
+  background-image: url('Images/background1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -76,7 +76,7 @@ footer{
 }
 .titreNass{
   text-align: center;
-  color: #23395e;
+  color: white;
   margin-bottom: 10px;
 }
 .soustitreNass{
