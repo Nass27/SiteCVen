@@ -102,7 +102,11 @@ body{
 .soustitreMA{
     text-align: justify;
 }
-
+.lienRG{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
 .contenus{
     padding-left: 15px;
     padding-right: 15px;
